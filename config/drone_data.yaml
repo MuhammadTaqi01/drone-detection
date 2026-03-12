@@ -1,0 +1,12 @@
+# Drone Detection Dataset Configuration
+path: ./dataset          # Root dataset path
+train: images/train      # Training images
+val: images/val          # Validation images
+test: images/test        # Test images
+
+# Number of classes
+nc: 1
+
+# Class names
+names:
+  0: drone
